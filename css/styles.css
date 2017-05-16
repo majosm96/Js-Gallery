@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+.gallery {
+	display: flex;
+	margin: 0 auto;
+	width: 95%;
+	height: 400px;
+	padding-top: 5px;
+}
+
+.btnBack {
+	background: url(../img/backward.png) no-repeat;
+	width: 10%;
+	padding-bottom: 120px;
+}
+
+.btnNext {
+	background: url(../img/forward.png) no-repeat;
+	width: 10%;
+}
+
+.currentImage {
+	width: 80%;
+}
+
+img {
+	margin: 0 auto;
+}
